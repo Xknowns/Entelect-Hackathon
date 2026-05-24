@@ -1,0 +1,41 @@
+{
+  "laps": [
+    {
+      "lap": 1,
+      "pit": {
+        "fuel_refuel_amount_l": 50,
+        "tyre_change_set_id": 1,
+        "enter": true
+      },
+      "segments": [
+        {
+          "target_m/s": 90,
+          "brake_start_m_before_next": 170,
+          "id": 1,
+          "type": "straight"
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        }
+      ]
+    },
+    {
+      "lap": 2,
+      "pit": {"enter": false},
+      "segments": [
+        {
+          "target_m/s": 90,
+          "brake_start_m_before_next": 170,
+          "id": 1,
+          "type": "straight"
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        }
+      ]
+    }
+  ],
+  "initial_tyre_id": 1
+}

@@ -1,0 +1,41 @@
+{"car":
+       {"max_speed_m/s":90,
+	   "accel_m/se2":10,
+	   "brake_m/se2":20,
+	   "limp_constant_m/s":20,
+	   "crawl_constant_m/s":10,
+	   "fuel_tank_capacity_l":150,
+	   "initial_fuel_l":150},
+ "race":
+	   {"name":"Test","laps":2,
+	   "base_pit_stop_time_s":20,
+	   "pit_tyre_swap_time_s":10,
+	   "pit_refuel_rate_l/s":5,
+	   "corner_crash_penalty_s":10,
+	   "pit_exit_speed_m/s":20,
+	   "fuel_soft_cap_limit_l":1400,
+	   "starting_weather_condition_id":1,
+	   "time_reference_s":7300},
+"track":
+	   {"name":
+	   "Test",
+	   "segments":
+	   [{"id":1,"type":"straight","length_m":850},
+	   {"id":2,"type":"corner","radius_m":60,"length_m":120}]},
+	   "tyres":
+	   {"properties":
+	   {"Soft":
+	   {"life_span":1,
+	   "dry_friction_multiplier":1.18,
+	   "cold_friction_multiplier":1.0,
+	   "light_rain_friction_multiplier":0.92,
+	   "heavy_rain_friction_multiplier":0.8,
+	   "dry_degradation":0.11,
+	   "cold_degradation":0.09,
+	   "light_rain_degradation":0.12,
+	   "heavy_rain_degradation":0.13}},
+"available_sets":
+       [{"ids":[1,2,3],"compound":"Soft"}]},
+	   "weather":
+	   {"conditions":
+	   [{"id":1,"condition":"dry","duration_s":1000,"acceleration_multiplier":1.0,"deceleration_multiplier":1.0}]}}
